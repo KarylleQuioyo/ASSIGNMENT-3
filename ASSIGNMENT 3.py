@@ -6,7 +6,7 @@ print('EXAMPLE 1')
 data1 = np.array([[2, 0], [5, 7]])
 np.savetxt('data1.csv', data1, delimiter=',')
 
-# loading data from file a csv file
+# loading data from a csv file
 array = np.loadtxt('data1.csv', delimiter=',')
 
 print('Array: \n', array)
@@ -18,7 +18,7 @@ print('EXAMPLE 2')
 data2 = np.array([[9, 8, 7], [6, 5, 4], [3, 2, 1]])
 np.save('data2.npy', data2)
 
-# loading data from file a binary file
+# loading data from a binary file
 array = np.load('data2.npy')
 
 print('Array: \n', array)
