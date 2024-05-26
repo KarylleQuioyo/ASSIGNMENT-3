@@ -1,12 +1,12 @@
 
 import numpy as np
 
-# Saving an array to a txt file
+# Saving an array to a csv file
 print('EXAMPLE 1')
 data1 = np.array([[2, 0], [5, 7]])
 np.savetxt('data1.csv', data1, delimiter=',')
 
-# loading data from file a txt file
+# loading data from file a csv file
 array = np.loadtxt('data1.csv', delimiter=',')
 
 print('Array: \n', array)
